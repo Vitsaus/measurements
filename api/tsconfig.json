@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es5", 
+    "module": "commonjs",          
+    "strict": true,      
+    "esModuleInterop": true,        
+    "skipLibCheck": true,                 
+    "forceConsistentCasingInFileNames": true,  
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noImplicitAny": false,
+    "importHelpers": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": false,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "strictPropertyInitialization": false,
+  }
+}

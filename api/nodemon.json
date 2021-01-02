@@ -1,0 +1,7 @@
+{
+    "watch": ["src"],
+    "ext": "tsx",
+    "ignore": [],
+    "exec": "npm run start"
+  }
+  
