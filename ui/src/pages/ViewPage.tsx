@@ -42,23 +42,23 @@ export function ViewPage() {
             <div>
                 <strong>Id</strong>
             </div>
-            <div>{measurement?.id}</div>
+            <div>{measurement.id}</div>
             <div>
                 <strong>Name</strong>
             </div>
-            <div>{measurement?.name}</div>
+            <div>{measurement.name}</div>
             <div>
                 <strong>Unit</strong>
             </div>
-            <div>{measurement?.unit}</div>
+            <div>{measurement.unit}</div>
             <div>
                 <strong>Upper</strong>
             </div>
-            <div>{measurement?.upper}</div>
+            <div>{measurement.upper}</div>
             <div>
                 <strong>Lower</strong>
             </div>
-            <div>{measurement?.lower}</div>
+            <div>{measurement.lower}</div>
             <br />
             <div>
                 <input
