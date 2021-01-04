@@ -32,6 +32,7 @@ export async function server(run: boolean, connection: Connection): Promise<Expr
             const isValidId = await validateId(parseInt(req.params.id));
             if (!isValidId) return res.status(400).json({ error: "invalid id" });
             const result: Measurement | undefined = await measurementRepository.findOne(req.params.id);
+            if (!result) return res.status(400).json({ error: "not found" });
             return res.status(200).json(result);
         } catch (e) {
             return res.status(400).json(e);
